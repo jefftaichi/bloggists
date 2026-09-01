@@ -8,6 +8,8 @@ No build step, no framework, no backend. The dashboard stays on Lovable.
 - `styles.css` — full design system (navy / orange / teal, Archivo Black + Barlow)
 - `site.js` — mobile nav + the two-step contact flow (validate, copy to clipboard, open Fiverr)
 - `assets/` — logo, favicon, apple touch icon, hero image
+- `sitemap.xml` — sitemap for Google Search Console
+- `robots.txt` — allows all crawlers and points to the sitemap
 - `.nojekyll` — tells GitHub Pages to serve files as-is
 
 ## Publish to GitHub Pages
