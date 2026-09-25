@@ -1,0 +1,14 @@
+# Bloggists
+
+> Bloggists is a one-person SEO practice that builds search foundations for bloggers, Blogger.com sites, and small businesses, and publishes a daily curated roundup of 100 articles from across the web.
+
+## Pages
+- [Home](https://bloggists.com/): What Bloggists does and who it's for
+- [Services & pricing](https://bloggists.com/services.html): SEO services, including the Sisyphus Starter package
+- [Local SEO](https://bloggists.com/local-seo.html): Local SEO through a network of state-specific sites
+- [About](https://bloggists.com/about.html): Our approach and platforms (Blogger.com specialists; WordPress, Wix, Squarespace, Shopify)
+- [Contact](https://bloggists.com/contact.html): Start a project
+
+## Roundups
+- [All roundups](https://bloggists.com/roundups/): Daily curated lists of 100 articles worth reading
+- [RSS feed](https://bloggists.com/roundups/feed.xml)
