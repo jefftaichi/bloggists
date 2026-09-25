@@ -790,3 +790,28 @@ textarea:focus-visible {
 .mt-12 {
   margin-top: 3rem;
 }
+
+/* Roundups blog */
+.roundup-layout { display: grid; gap: 2.5rem; }
+@media (min-width: 900px) { .roundup-layout { grid-template-columns: minmax(0, 1fr) 15rem; } }
+.roundup-list { display: grid; gap: 1.25rem; }
+.roundup-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; }
+.roundup-card h2 { font-size: 1.35rem; margin: 0.35rem 0 0.6rem; line-height: 1.2; }
+.roundup-card h2 a { color: var(--ink); text-decoration: none; }
+.roundup-card h2 a:hover { color: var(--teal); }
+.roundup-card p { margin: 0 0 1rem; color: var(--muted-foreground); }
+.roundup-aside { align-self: start; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; }
+.archive-list { list-style: none; margin: 0.5rem 0 0; padding: 0; display: grid; gap: 0.35rem; }
+.archive-list a, .roundup-aside a { color: var(--teal); }
+.pager { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; margin-top: 0.5rem; }
+.page-hero .eyebrow a { color: inherit; }
+.roundup-title { font-size: clamp(1.6rem, 3.5vw, 2.4rem); }
+.roundup-body { max-width: 46rem; }
+.roundup-body h2 { font-size: 1.3rem; margin: 2.25rem 0 0.5rem; color: var(--ink); }
+.roundup-body a { color: var(--teal); }
+.tag-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 2rem; }
+.tag { font-family: var(--font-condensed); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; border: 1px solid var(--border); border-radius: 999px; padding: 0.15rem 0.7rem; color: var(--muted-foreground); }
+.post-nav { display: grid; gap: 1rem; margin-top: 2.5rem; max-width: 46rem; }
+@media (min-width: 700px) { .post-nav { grid-template-columns: 1fr 1fr; } }
+.post-nav a { display: block; border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem; background: var(--card); color: var(--ink); text-decoration: none; }
+.post-nav a.next { text-align: right; }
