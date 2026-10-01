@@ -559,6 +559,7 @@ a {
   color: color-mix(in oklab, var(--ink-foreground) 75%, transparent);
   text-decoration: none;
 }
+.social-links.light a { color: var(--ink); }
 .social-links a:hover { color: var(--primary); }
 
 @media (min-width: 768px) {
